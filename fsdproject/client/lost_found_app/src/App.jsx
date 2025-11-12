@@ -1,12 +1,12 @@
 import React from 'react'
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom'
 
-const Home = () => <h1>Home Page</h1>
-const About = () => <h1>About Page</h1>
-const Contact = () => <h1>Contact Page</h1>
-const Login = () => <h1>Login Page</h1>
-const Register = () => <h1>Register Page</h1>
-const NotFound = () => <h1>404 - Page Not Found</h1>
+import Home from './components/Home'
+import About from './components/About'
+import Contact from './components/Contact'
+import Login from './components/Login'
+import Register from './components/Register'
+import NotFound from './components/NotFound'
 
 const App = () => {
   return (
