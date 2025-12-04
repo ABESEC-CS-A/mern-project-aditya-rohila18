@@ -4,8 +4,8 @@ import dotenv from 'dotenv';
 dotenv.config();
 
 import cors from 'cors';
-import DBConnect from './config/db.js'; 
-import User from './models/user.js';
+import DBConnect from './config/db.js';
+import User from './models/User.js';
 
 const app = express();
 
